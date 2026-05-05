@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/(api|auth|products|orders|coupons|settings|admin/users)/(.*)",
+      "destination": "/server.ts"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
